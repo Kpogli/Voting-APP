@@ -19,5 +19,5 @@ spec:
         app: demo-voting-app 
     spec: 
       containers: 
-      - image: worker-app
-        name: kodekloud/examplevotingapp_worker:v1
+      - name: worker-app
+        image: kodekloud/examplevotingapp_worker:v1
